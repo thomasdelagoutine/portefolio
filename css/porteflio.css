@@ -54,18 +54,19 @@
     margin-top: 100px;
 }
 
-.portfolio-logo-skill{
+.portfolio-logo-skill {
     width: 8%;
     height: auto;
 }
 
-.portfolio-interet-image{
+.portfolio-interet-image {
     width: 100%;
     height: auto;
     border: 2px solid #5a5a5a;
 
 }
-.portfolio-interet-image:hover{
+
+.portfolio-interet-image:hover {
     opacity: 0.8;
     -webkit-transition: all 200ms ease;
 }
@@ -75,22 +76,27 @@
     -webkit-transition: all 200ms ease;
 }
 
-.portfolio-project-text{
+.portfolio-project-text {
     font-family: Calibri;
     text-align: justify;
     min-height: 316px;
 }
 
-.portfolio-formation{
+.portfolio-en-dev {
+    font-family: Calibri;
+}
+
+.portfolio-formation {
     font-family: Calibri;
     font-size: 14pt;
     margin-bottom: 15px;
 }
-.portfolio-formation-year{
+
+.portfolio-formation-year {
     font-weight: bold;
 }
 
-.portfolio-formation-label{
+.portfolio-formation-label {
     text-align: left;
 }
 
@@ -101,7 +107,7 @@
     font-weight: bolder;
 }
 
-.portfolio-interet-text{
+.portfolio-interet-text {
     font-family: Calibri;
     font-size: 14pt;
 }
@@ -401,7 +407,6 @@ footer p {
     font-size: 14px;
     margin: 0;
 }
-
 
 img::selection {
     background: transparent;
